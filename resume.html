@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sanjaya Kandel CV</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    padding:40px;
+    display:flex;
+    justify-content:center;
+}
+
+.cv-container{
+    width:100%;
+    max-width:1000px;
+    background:linear-gradient(145deg,#111827,#1e293b);
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 0 40px rgba(0,255,255,0.15);
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.header{
+    padding:50px;
+    background:linear-gradient(135deg,#00ffff,#2563eb);
+    text-align:center;
+}
+
+.header h1{
+    font-size:3rem;
+    letter-spacing:2px;
+    color:white;
+    margin-bottom:10px;
+}
+
+.header h2{
+    font-size:1.1rem;
+    font-weight:400;
+    color:#e0f2fe;
+}
+
+.contact{
+    margin-top:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+    font-size:0.95rem;
+}
+
+.contact span{
+    background:rgba(255,255,255,0.15);
+    padding:10px 18px;
+    border-radius:30px;
+    backdrop-filter:blur(10px);
+}
+
+.section{
+    padding:35px 50px;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+}
+
+.section h3{
+    font-size:1.7rem;
+    margin-bottom:20px;
+    color:#38bdf8;
+    position:relative;
+}
+
+.section h3::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-8px;
+    width:70px;
+    height:3px;
+    background:#00ffff;
+    border-radius:20px;
+}
+
+.summary{
+    line-height:1.8;
+    color:#d1d5db;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.skill-box{
+    background:#1e293b;
+    padding:25px;
+    border-radius:15px;
+    transition:0.4s;
+    border:1px solid rgba(255,255,255,0.05);
+}
+
+.skill-box:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 25px rgba(0,255,255,0.2);
+}
+
+.skill-box h4{
+    color:#67e8f9;
+    margin-bottom:15px;
+}
+
+.skill-box ul{
+    padding-left:18px;
+    line-height:2;
+    color:#d1d5db;
+}
+
+.education-item,
+.project-item,
+.exp-item{
+    margin-bottom:25px;
+}
+
+.education-item h4,
+.project-item h4,
+.exp-item h4{
+    color:#f8fafc;
+    margin-bottom:8px;
+    font-size:1.1rem;
+}
+
+.education-item p,
+.project-item p,
+.exp-item p{
+    color:#cbd5e1;
+    line-height:1.8;
+}
+
+.list{
+    padding-left:20px;
+    line-height:2;
+    color:#d1d5db;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+    background:#020617;
+    color:#94a3b8;
+    font-size:0.9rem;
+}
+
+@media(max-width:768px){
+
+    body{
+        padding:15px;
+    }
+
+    .header{
+        padding:35px 20px;
+    }
+
+    .header h1{
+        font-size:2rem;
+    }
+
+    .section{
+        padding:30px 20px;
+    }
+
+    .contact{
+        flex-direction:column;
+        align-items:center;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="cv-container">
+
+    <div class="header">
+        <h1>SANJAYA KANDEL</h1>
+        <h2>Software Developer • UI/UX Designer • Graphic Designer • Creative Technologist</h2>
+
+        <div class="contact">
+            <span>📍 Gaindakot-05, Nawalparasi (East), Nepal</span>
+            <span>📞 +977-9867821387</span>
+            <span>✉️ Kandelsanjaya7@gmail.com</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Professional Summary</h3>
+        <p class="summary">
+            Passionate and creative BSc. CSIT student with strong interest in software development,
+            UI/UX design, graphic designing, and modern web technologies. Skilled in creating
+            interactive websites, creative digital experiences, and visually engaging user interfaces.
+            Experienced in HTML, CSS, Python, C++, video editing, and content creation.
+            Highly motivated to learn new technologies, solve problems, and contribute to innovative projects.
+        </p>
+    </div>
+
+    <div class="section">
+        <h3>Technical Skills</h3>
+
+        <div class="skills-grid">
+
+            <div class="skill-box">
+                <h4>Programming Languages</h4>
+                <ul>
+                    <li>Python</li>
+                    <li>C++</li>
+                    <li>JavaScript</li>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h4>Development & Design</h4>
+                <ul>
+                    <li>Frontend Web Development</li>
+                    <li>Responsive Website Design</li>
+                    <li>UI/UX Design</li>
+                    <li>Graphic Designing</li>
+                    <li>Video Editing</li>
+                </ul>
+            </div>
+
+            <div class="skill-box">
+                <h4>Tools & Technologies</h4>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>GitHub</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe XD</li>
+                    <li>Canva</li>
+                    <li>Figma</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Education</h3>
+
+        <div class="education-item">
+            <h4>BSc. CSIT</h4>
+            <p>Current Student</p>
+        </div>
+
+        <div class="education-item">
+            <h4>Higher Secondary Education (+2 Science)</h4>
+            <p>Janak Secondary School, Gaindakot — GPA: 3.20 (2023)</p>
+        </div>
+
+        <div class="education-item">
+            <h4>Secondary Level Examination (SEE)</h4>
+            <p>Janak Secondary School — GPA: 3.90 (2021)</p>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h3>Projects & Interests</h3>
+
+        <div class="project-item">
+            <h4>Portfolio & Web Development</h4>
+            <ul class="list">
+                <li>Modern futuristic portfolio websites</li>
+                <li>Cyberpunk-style UI designs</li>
+                <li>Interactive responsive web interfaces</li>
+            </ul>
+        </div>
+
+        <div class="project-item">
+            <h4>Creative Design</h4>
+            <ul class="list">
+                <li>Graphic designing and branding</li>
+                <li>UI/UX wireframing and prototyping</li>
+                <li>Video editing and digital content creation</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h3>Experience & Activities</h3>
+
+        <div class="exp-item">
+            <h4>Freelance Creative Developer</h4>
+            <ul class="list">
+                <li>Designed modern website interfaces and layouts</li>
+                <li>Worked on personal and freelance digital projects</li>
+                <li>Created UI concepts for web applications</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <h4>Content Creation</h4>
+            <ul class="list">
+                <li>Created YouTube and creative digital content</li>
+                <li>Worked on storytelling and multimedia creativity</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h3>Soft Skills</h3>
+        <ul class="list">
+            <li>Creative Thinking</li>
+            <li>Communication Skills</li>
+            <li>Problem Solving</li>
+            <li>Team Collaboration</li>
+            <li>Fast Learner</li>
+            <li>Time Management</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Hobbies & Interests</h3>
+        <ul class="list">
+            <li>Music and Singing</li>
+            <li>Playing Guitar, Madal & Harmonium</li>
+            <li>Travelling</li>
+            <li>Writing Poems & Stories</li>
+            <li>Gaming</li>
+            <li>Cooking</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h3>Languages</h3>
+        <ul class="list">
+            <li>English</li>
+            <li>Nepali</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        © 2026 Sanjaya Kandel • Professional CV Portfolio
+    </div>
+
+</div>
+
+</body>
+</html>
